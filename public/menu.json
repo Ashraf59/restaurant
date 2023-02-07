@@ -1,0 +1,53 @@
+[
+    {
+        
+        "service_id": "04",
+        "title": "Bangla Food",
+        "img": "https://www.lacademie.com/wp-content/uploads/2022/01/popular-bangladeshi-foods.jpg",
+        "price": "120.00",
+        "description": "Rice, fish curry, and lentil is the most common traditional Bangladeshi food for general people. Bangladesh is also famous for its desserts. You will find dozens of sweets, rice cakes, rice puddings, and many other desserts in Bangladesh, mostly made from rice and cow milk. It is a paradise for food lovers"
+    },
+    {
+        
+        "service_id": "05",
+        "title": "Indian Food",
+        "img": "https://freshtandooriflavour.ca/sites/default/files/blog-img/xtop-dishes-to-try-if-you,P20are-new-to-indian,P20food.png.pagespeed.ic.K8tkcxLOBx.jpg",
+        "price": "220.00",
+        "description": "Traditional Indian food is renowned worldwide for its wonderful use of herbs and spices, and its diverse range of deep-fried snacks, pastries, curries, gravies, sauces, rice dishes, tandoor-cooked meats, vegetable dishes, chutneys, breads and sweets"
+        
+    },
+    {
+        
+        "service_id": "01",
+        "title": "Chiness Food",
+        "img": "https://kohinoor-joy.com/wp-content/uploads/2020/01/indo-chinese-food.jpg",
+        "price": "250.00",
+        "description": "Chinese food, rich and colorful, has diversified color, aromatic flavor, and excellent taste as its main features. With these three characteristics, it is not only tasty but also a work of art for people to appreciate"
+        
+    },
+    {
+        
+        "service_id": "02",
+        "title": "Thai Food",
+        "img": "https://static.thehoneycombers.com/wp-content/uploads/sites/2/2021/07/thai-food-singapore-thai-traditional-dishes.png",
+        "price": "240.00",
+        "description": "Thai food has become one of the most popular cuisines in the world, with restaurants in most big cities in America and Europe. The Thai food crazy has been spreading across the globe over the past 50 years and there are very few places it hasn’t reached. The intense flavor has conquered the hearts and palates of so many people, so what exactly makes Thai food so special?"
+    },
+    {
+        
+        "service_id": "03",
+        "title": "Japanese Food",
+        "img": "https://restaurantclicks.com/wp-content/uploads/2022/04/Popular-Japanese-Foods.jpg",
+        "price": "30.00",
+        "description": "Japan is a very different, very rapidly changing nation—especially in terms of its food. Even sushi in its original form used to be quite different from what it is today" 
+    },
+    {
+        
+        "service_id": "06",
+        "title": "Mandarin Food",
+        "img": "https://image.vsco.co/1/533b438e102ee496198/578242f96a97c92841d41e47/1136x910/vsco_071016.jpg",
+        "price": "20.00",
+        "description": "Yan’s Dining Fine Shanghai Cuisine 嬿青私房菜 is a new Chinese restaurant that opened in the Mandarin Gallery along Orchard Road recently.  Yan’s Dining Mandarin Gallery is located on level 4.  I believe it occupies part of the space that, long ago, used to house Jones the Grocer"
+        
+    }
+]

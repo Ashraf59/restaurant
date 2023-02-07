@@ -1,0 +1,36 @@
+.menu-design{
+    color: #FFF;
+    font-size: 20px;
+    font-family: 'Roboto Serif', serif;
+   
+}
+.menu-design:hover{
+    color: #FF0000;
+}
+
+.blind-text{
+    text-transform: uppercase;
+    font-family: 'Saira Condensed', sans-serif;
+    letter-spacing: 4px;
+    font-size: 20px;
+    position: relative;
+    overflow: hidden;
+    /* -webkit-box-reflect: below 1px linear-gradient(transparent, #ff0000); */
+    background: linear-gradient(90deg, #000, #ff0000, #000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: blink 3s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, .1);
+    font-weight: bold;
+}
+
+@keyframes blink{
+    0%{
+        background-position: -500%;
+    } 
+
+    100%{
+        background-position: 500%;
+    } 
+}

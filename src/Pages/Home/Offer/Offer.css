@@ -1,0 +1,31 @@
+
+.announcement{
+    background-color: #FF0000;
+    padding: 10px;
+    font-family: 'Saira Condensed', sans-serif;
+    color: #fff;
+    letter-spacing: 3.20px;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.announcement-text{
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.text1 span{
+    margin-right: 2rem;
+}
+
+.text2 span:not(:last-child){
+    margin-right: 2rem;
+}
+
+.text2 span:last-child{
+    margin-right: 1rem;
+}
