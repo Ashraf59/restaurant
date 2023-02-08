@@ -5,7 +5,7 @@ const FoodCard = ({menu}) => {
   const{img, title, description} = menu;
     return (
         <div>
-            <div className="card w-96 h-[30rem] bg-base-100 shadow shadow-slate-500 m-auto">
+            <div className="card w-[370px] h-[30rem] bg-base-100 shadow shadow-slate-300 m-auto">
   <figure>
     <img src= {img} alt="Shoes" />
     </figure>
