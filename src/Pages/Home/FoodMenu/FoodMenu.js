@@ -11,10 +11,20 @@ const FoodMenu = () => {
     },[])
     return (
         <div >
-            <h1 className='text-design'>Our Classic <br/> Delicious Food</h1>
-            <p className='text2-design'>Sink your teeth into one of our classic Delicious items to
+           <div >
+           <h1 className='text-design' data-aos="fade-left"
+     data-aos-anchor="#example-anchor"
+     data-aos-offset="300"
+     data-aos-duration="2000">Our Classic <br/> Delicious Food</h1>
+           </div>
+            <div >
+            <p className='text2-design' data-aos="fade-right"
+     data-aos-anchor="#example-anchor"
+     data-aos-offset="300"
+     data-aos-duration="2000">Sink your teeth into one of our classic Delicious items to
 taste a burger like never before. You’ll forget all about your
 “favorite menus” once you’ve tried an Angus Food</p>
+            </div>
            <div className='grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center mt-14 lg:gap-8 lg:mx-20'>
            {
                 menus.map(menu => 

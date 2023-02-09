@@ -6,8 +6,10 @@ import logo from '../../assets/logo/logo.gif'
 const FooterTwo = () => {
     return (
         <footer className="new_footer_area bg_color">
-        <div className="new_footer_top">
-        <div className='row'>
+        <div className="new_footer_top" data-aos="fade-up"
+     data-aos-easing="center-bottom"
+     data-aos-duration="2000">
+        <div className='row' >
          <div className='col'>
             <div className='food-delivery'>
             <img src={logo} className='logo' alt='logo'/>
