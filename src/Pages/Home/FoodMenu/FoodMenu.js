@@ -12,15 +12,13 @@ const FoodMenu = () => {
     return (
         <div >
            <div >
-           <h1 className='text-design' data-aos="fade-left"
-     data-aos-anchor="#example-anchor"
-     data-aos-offset="300"
+           <h1 className='text-design' data-aos="zoom-in"
+     data-aos-easing="ease-out-cubic"
      data-aos-duration="2000">Our Classic <br/> Delicious Food</h1>
            </div>
             <div >
-            <p className='text2-design' data-aos="fade-right"
-     data-aos-anchor="#example-anchor"
-     data-aos-offset="300"
+            <p className='text2-design' data-aos="zoom-in"
+     data-aos-easing="ease-out-cubic"
      data-aos-duration="2000">Sink your teeth into one of our classic Delicious items to
 taste a burger like never before. You’ll forget all about your
 “favorite menus” once you’ve tried an Angus Food</p>
