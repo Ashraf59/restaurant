@@ -20,11 +20,17 @@ const Navbar = () => {
             <li className='menu-design'><Link to = '/allcategories'>Category</Link></li>
             {
               user?.email? 
-              <li><button onClick={handleLogOut} className="btn btn-ghost">Logout</button></li>
+              
+              <>
+              
+              <li onClick={handleLogOut} className='menu-design'><Link to = '#'>Logout</Link></li>
+              </>
               :
               <>
-               <li className='menu-design'><Link to = '/login'>Login</Link></li>
-            <li className='menu-design'><Link to = '/signup'>Signup</Link></li>
+               {/* <li className='menu-design'><Link to = '/login'>Login</Link></li> */}
+               <li className='menu-design'><Link to = '/login2'>Login</Link></li>
+            {/* <li className='menu-design'><Link to = '/signup'>Signup</Link></li> */}
+            <li className='menu-design'><Link to = '/signup2'>Signup</Link></li>
               </>
             }
            

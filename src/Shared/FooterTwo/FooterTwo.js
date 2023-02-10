@@ -39,7 +39,7 @@ const FooterTwo = () => {
          </div>
          <div className='col'>
          <h3>Newsletter <div className='underline'><span></span></div></h3>
-         <form>
+         <form className='flex'>
           <i className="ri-mail-fill"></i>
        <input type='email' placeholder='Enter your email'/>
           <button type='submit'><i className="ri-arrow-right-line"></i></button>

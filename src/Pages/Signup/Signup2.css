@@ -1,0 +1,214 @@
+Section {
+    Display: Flex;
+    Min-Height: 100vh;
+    Align-Items: Center;
+    Justify-Content: Center;
+    /* Background: Linear-Gradient(To Bottom, #F7f7fe, #Dff1ff); */
+    background: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)), url('../../assets//banner/banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: hidden;
+    /* Position: Absolute; */
+}
+
+/* Section .Colour {
+    Position: Absolute;
+    Filter: Blur(150px);
+} */
+
+/* Section .Colour:Nth-Child(1) {
+    Top: -350px;
+    Width: 600px;
+    Height: 600px;
+    Background: #Bf4ad4;
+} */
+
+/* Section .Colour:Nth-Child(2) {
+    Left: 100px;
+    Width: 500px;
+    Height: 500px;
+    Bottom: -150px;
+    Background: #Ffa500;
+} */
+
+/* Section .Colour:Nth-Child(3) {
+    Right: 100px;
+    Bottom: 50px;
+    Width: 300px;
+    Height: 300px;
+    Background: #2b67f3;
+} */
+
+.Box {
+    Position: Relative;
+}
+
+.Box .Square {
+    Position: Absolute;
+    Border-Radius: 10px;
+    Backdrop-Filter: Blur(5px);
+    Background: Rgba(255, 255, 255, 0.1);
+    Animation-Delay: Calc(-1s * Var(--I));
+    Animation: Animate 10s Linear Infinite;
+    Box-Shadow: 0 25px 45px Rgba(0, 0, 0, 0.1);
+    Border: 1px Solid Rgba(255, 255, 255, 0.5);
+    Border-Right: 1px Solid Rgba(255, 255, 255, 0.2);
+    Border-Bottom: 1px Solid Rgba(255, 255, 255, 0.2);
+}
+
+@keyframes Animate {
+
+    0%,
+    100% {
+        Transform: TranslateY(-40px);
+    }
+
+    50% {
+        Transform: TranslateY(40px);
+    }
+}
+
+.Box .Square:Nth-Child(1) {
+    Top: -50px;
+    Left: -60px;
+    Width: 100px;
+    Height: 100px;
+}
+
+.Box .Square:Nth-Child(2) {
+    Z-Index: 2;
+    Top: 150px;
+    Left: -100px;
+    Width: 120px;
+    Height: 120px;
+}
+
+.Box .Square:Nth-Child(3) {
+    Z-Index: 2;
+    Width: 80px;
+    Height: 80px;
+    Right: -50px;
+    Bottom: -60px;
+}
+
+.Box .Square:Nth-Child(4) {
+    Left: 100px;
+    Width: 50px;
+    Height: 50px;
+    Bottom: -80px;
+}
+
+.Box .Square:Nth-Child(5) {
+    Top: -80px;
+    Left: 140px;
+    Width: 60px;
+    Height: 60px;
+}
+
+.Container2 {
+    Width: 800px;
+    Display: Flex;
+    Min-Height: 400px;
+    Position: Relative;
+    Border-Radius: 10px;
+    Align-Items: Center;
+    Justify-Content: Center;
+    Backdrop-Filter: Blur(5px);
+    Background: Rgba(255, 255, 255, 0.1);
+    /* Background: #5f5d5d 0undefined; */
+    Box-Shadow: 0 25px 45px Rgba(0, 0, 0, 0.1);
+    Border: 1px Solid Rgba(255, 255, 255, 0.5);
+    Border-Right: 1px Solid Rgba(255, 255, 255, 0.2);
+    Border-Bottom: 1px Solid Rgba(255, 255, 255, 0.2);
+    margin-top: 70px;
+}
+
+.Form {
+    Width: 100%;
+    Height: 100%;
+    Padding: 40px;
+    Position: Absolute;
+  
+    
+}
+
+.Form H2 {
+    Color: #Fff;
+    Font-Size: 24px;
+    Font-Weight: 600;
+    Position: Relative;
+    Letter-Spacing: 1px;
+    Margin-Bottom: 40px;
+}
+
+.Form H2::Before {
+    Left: 0;
+    Width: 80px;
+    Height: 4px;
+    Content: "";
+    Bottom: -10px;
+    Background: #Fff;
+    Position: Relative;
+}
+
+.Form .Input__box {
+    Width: 100%;
+    Margin-Top: 20px;
+}
+
+.Form .Input__box Input {
+    Width: 100%;
+    Color: #fff;
+    Border: None;
+    Outline: None;
+    Font-Size: 16px;
+    Padding: 10px 20px;
+    Letter-Spacing: 1px;
+    Border-Radius: 35px;
+    Background: Rgba(255, 255, 255, 0.2);
+    Border: 1px Solid Rgba(255, 255, 255, 0.5);
+    Box-Shadow: 0 5px 15px Rgba(0, 0, 0, 0.05);
+    Border-Right: 1px Solid Rgba(255, 255, 255, 0.2);
+    Border-Bottom: 1px Solid Rgba(255, 255, 255, 0.2);
+}
+
+.Form::Placeholder {
+    Color: #Fff;
+}
+
+.Form .Input__box Input[Type="Submit"] {
+    Color: #fff;
+    Cursor: Pointer;
+    Background: #eb0303;
+    Max-Width: 100%;
+    Font-Weight: 600;
+    Margin-Bottom: 20px;
+    border: 0;
+    outline: 0;
+}
+
+.btn-style{
+    Color: #fff;
+    Cursor: Pointer;
+    Background: #eb0303;
+    Width: 100%;
+    Font-Weight: 600;
+    Margin-Bottom: 20px;
+    border: 0;
+    outline: 0;
+    Font-Size: 16px;
+    Padding: 10px 20px;
+    Border-Radius: 35px;
+}
+
+.Forget {
+    Color: #Fff;
+    Margin-Top: 5px;
+}
+
+.Forget A {
+    Color: #Fff;
+    Font-Weight: 600;
+    Text-Decoration: None;
+}
